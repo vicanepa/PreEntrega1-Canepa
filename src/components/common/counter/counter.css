@@ -1,0 +1,71 @@
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter {
+    background-color: #efefe2;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.counter h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.counter p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.counter>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.counter button {
+    background-color: #f1ca03;;
+    color: #393535;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.counter button:hover {
+    background-color: #0056b3;
+}
+
+.counter h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 16px;
+    color: #333;
+}
+
+.counter .add-to-cart {
+    background-color: #f1ca03;;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+.counter .add-to-cart:hover {
+    background-color: #464947;
+}

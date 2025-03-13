@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 25px;
+    background-color: #f1ca03;
+}
+
+.navbar-logo{
+    cursor: pointer;
+    width: 300px;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 5rem;
+}
+
+.navbar-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #555050;
+    transition: color 0.3s ease;
+    gap: 5rem;
+}
+
+.navbar-link:hover {
+    color: #3a31398a;
+}
+
+.navbar-cart {
+    display: flex;
+    padding:1rem;
+    align-items: center;
+    cursor: pointer;
+}
