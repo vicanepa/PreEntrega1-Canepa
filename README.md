@@ -1,5 +1,5 @@
-# NOSTALSICK
+# PAL´CARRITO
 
-<img src="https://res.cloudinary.com/dcvelgyvu/image/upload/v1739808859/logo-nostalsick-removebg-preview_toueku.png"  width="200" height="200">
+<img src=  "https://res.cloudinary.com/djfqykqlx/image/upload/v1744239847/logo1_dlsngq.png" width="200" height="200">
 
-- La idea de este ecommerce nace a partir del interés real de crear un proyecto destino a la venta de ropa alternativa que a ya vengo haciendo pero a traves de medios mas tradicionales.
+- Pal Carrito es una tienda en línea amigable y moderna, donde los usuarios pueden explorar y comprar productos de ropa, artículos de bazar y gorras desde la comodidad de su hogar. El proyecto está diseñado para brindar una experiencia de compra rápida, segura y sencilla.
