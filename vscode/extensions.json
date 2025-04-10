@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "mhutchie.git-graph",
+        "vscodeshift.mui-snippets",
+        "christian-kohler.path-intellisense",
+        "bradlc.vscode-tailwindcss"
+    ]
+}

@@ -1,9 +1,15 @@
-
-.body{
-    padding: 2rem;
+.body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
     gap: 2rem;
+    justify-items: center;
+    padding: 1rem;
+    justify-content: center;
 }
 
+h1{
+    padding: 4rem;
+    color: #ffffff;
+    font-size: 2rem;
+    background-image: linear-gradient(to bottom, #f4acff, #e7b4ff, #dcbcff, #d3c2ff, #ccc8ff, #cfcefd, #d3d4fb, #d7daf9, #e2e3fa, #edecfc, #f6f5fd, #ffffff);
+}

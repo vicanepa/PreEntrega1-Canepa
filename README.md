@@ -1,8 +1,5 @@
-# React + Vite
+# NOSTALSICK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://res.cloudinary.com/dcvelgyvu/image/upload/v1739808859/logo-nostalsick-removebg-preview_toueku.png"  width="200" height="200">
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- La idea de este ecommerce nace a partir del interés real de crear un proyecto destino a la venta de ropa alternativa que a ya vengo haciendo pero a traves de medios mas tradicionales.

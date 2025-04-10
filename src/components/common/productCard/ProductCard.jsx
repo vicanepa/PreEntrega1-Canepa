@@ -1,8 +1,20 @@
 import { Button } from "@mui/material";
-import { Link } from "react-router";
+// import { Link } from "react-router";
+import { useNavigate, useLocation } from "react-router-dom";
 import "../productCard/productCard.css";
 
 const ProductCard = ({ price, title, stock, id, imageUrl }) => {
+
+    // nuevo
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const openDetail = () => {
+        navigate(`/itemDetail/${id}`, { state: { backgroundLocation: location } });
+    };
+    // nuevo
+
+
     return (
         <div className="gothic-card">
 
@@ -21,15 +33,14 @@ const ProductCard = ({ price, title, stock, id, imageUrl }) => {
                 {stock > 0 ? `${stock} disponibles` : "Agotado"}
             </h2>
 
-            <Link to={`/itemDetail/${id}`} className="product-link">
-                <Button
-                    variant="outlined"
-                    className="gothic-button"
-                    fullWidth
-                >
-                    Ver detalle
-                </Button>
-            </Link>
+            <Button
+                variant="outlined"
+                className="gothic-button"
+                fullWidth
+                onClick={openDetail}
+            >
+                Ver detalle
+            </Button>
 
         </div>
     );
