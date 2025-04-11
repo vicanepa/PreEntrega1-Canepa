@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Counter from "../../common/counter/Counter";
-// import { useParams } from "react-router";
 import { useParams, useNavigate } from "react-router-dom";
 import { db } from "../../../firebaseConfig";
 import { collection, doc, getDoc } from "firebase/firestore";
@@ -8,12 +7,7 @@ import "./itemDetail.css";
 
 export const ItemDetail = () => {
     const { id } = useParams();
-
-    // nuevo
     const navigate = useNavigate();
-    
-    // nuevo
-
     const [item, setItem] = useState({});
 
     useEffect(() => {
@@ -29,9 +23,9 @@ export const ItemDetail = () => {
     return (
         <div className="item-detail-card-container">
             <div className="item-detail-Card">
-                {/* nuevo */}
+                
             <button className="close-button" onClick={() => navigate(-1)}>✖</button>
-               {/* nuevo */}
+
                 <h2>{item.title}</h2>
                 <div>
                     <img src={item.imageUrl} alt="" className="product-image-detail" />

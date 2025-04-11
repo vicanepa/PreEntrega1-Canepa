@@ -7,10 +7,10 @@ import Checkout from "./components/pages/checkout/Checkout";
 import CartContextProvider from "./context/CardContext";
 
 function App() {
-  // nuevo
+
   const location = useLocation();
   const state = location.state;
-  // nuevo
+  
   return (
     <CartContextProvider>
       <Navbar />

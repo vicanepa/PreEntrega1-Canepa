@@ -22,8 +22,6 @@
         font-size: 1.2rem;
         color: #393535;
     }
-
-
 }
 
 .product-image-detail {
@@ -31,7 +29,7 @@
     height: 100%;
 }
 
-/* nuevo */
+
 .modal-overlay {
     position: fixed;
     top: 0;
